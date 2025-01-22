@@ -167,7 +167,7 @@ a {
 }
 
 .standard-bg-img {
-    background: url('/assets/bg.png') no-repeat center/cover;
+    background: url('https: //hridoyahmedshajib.github.io/PH-Assignment-02/assets/bg.png') no-repeat center/cover;
 }
 
 .standard-p {
@@ -217,7 +217,7 @@ a {
     margin-top: 100px;
     background:
             linear-gradient(rgba(255, 255, 255, 0.5),rgba(239, 185, 92, 0.5)),
-            url('/assets/bg.png') no-repeat center/cover;
+            url('https: //hridoyahmedshajib.github.io/PH-Assignment-02/assets/bg.png') no-repeat center/cover;
 
     }
 
@@ -455,7 +455,7 @@ a {
     }
 
     .standard-bg-img {
-            background: url('/assets/bg.png') no-repeat center/cover;
+            background: url('https://hridoyahmedshajib.github.io/PH-Assignment-02/assets/bg.png') no-repeat center/cover;
     }
 
 
@@ -472,7 +472,7 @@ a {
     margin-top: 100px;
     background:
         linear-gradient(rgba(255, 255, 255, 0.5), rgba(239, 185, 92, 0.5)),
-        url('/assets/bg.png') no-repeat center/cover;
+        url('https: //hridoyahmedshajib.github.io/PH-Assignment-02/assets/bg.png') no-repeat center/cover;
 
     }
 
