@@ -167,7 +167,7 @@ a {
 }
 
 .standard-bg-img {
-    background: url(./assets/bg.png) white 50% / cover no-repeat;
+    background: url('/assets/bg.png') no-repeat center/cover;
 }
 
 .standard-p {
@@ -216,9 +216,10 @@ a {
 .stry-main-section {
     margin-top: 100px;
     background:
-        0% 0% / 100px 100px,
-        linear-gradient(0deg, rgba(239, 185, 92, 0.3) 0%, rgba(255, 255, 255, 0.30) 100%);
-}
+            linear-gradient(rgba(255, 255, 255, 0.5),rgba(239, 185, 92, 0.5)),
+            url('/assets/bg.png') no-repeat center/cover;
+
+    }
 
 .container-stry {
     display: grid;
@@ -404,7 +405,7 @@ a {
 
 
 
-    
+
     /* banner section */
 
     .banner-section {
@@ -453,6 +454,10 @@ a {
         display: none;
     }
 
+    .standard-bg-img {
+            background: url('/assets/bg.png') no-repeat center/cover;
+    }
+
 
 
     /*Story Section*/
@@ -463,6 +468,13 @@ a {
         column-gap: 0;
     }
 
+    .stry-main-section {
+    margin-top: 100px;
+    background:
+        linear-gradient(rgba(255, 255, 255, 0.5), rgba(239, 185, 92, 0.5)),
+        url('/assets/bg.png') no-repeat center/cover;
+
+    }
 
     .large-card {
         display: none;
