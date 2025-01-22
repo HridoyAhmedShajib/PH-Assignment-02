@@ -279,7 +279,7 @@ a {
 
 .btn-position {
     position: absolute;
-    top: 155px;
+    top: 164px;
     left: 30px;
 }
 
@@ -327,6 +327,7 @@ a {
 
 
 
+/*Footer Section*/
 
 .footer-container {
     display: flex;
@@ -376,9 +377,11 @@ a {
 
 /*Responsive*/
 
-/* nav section responsive */
+
 
 @media screen and (max-width:576px) {
+
+    /* nav section*/
 
     .nav-links,
     .btn-primary,
@@ -399,6 +402,9 @@ a {
         display: block;
     }
 
+
+
+    
     /* banner section */
 
     .banner-section {
@@ -428,7 +434,10 @@ a {
         font: bold;
     }
 
-    /* standard-card */
+
+
+
+    /* Standard Curriculum */
 
     .standard-container {
         flex-direction: column;
